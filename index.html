@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tennis Central Pod</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- css files -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" defer >
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" defer >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" defer >
+  <link rel="stylesheet" href="assets/css/style.css" defer >
+  <link rel="stylesheet" href="assets/css/main.css" defer >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:100,300,400|Source+Sans+Pro:300,400" defer >
+
+  <!-- js files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js" ></script>
+  <script src ="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/3.3.5/scrollreveal.min.js" defer ></script>
+  <script src ="https://cdnjs.cloudflare.com/ajax/libs/midnight.js/1.1.2/midnight.jquery.min.js" defer ></script>
+  <script src ="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js" defer ></script>
+  <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" defer ></script>
+  <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" defer ></script>
+  <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery-sidebar/3.3.2/jquery.sidebar.min.js" defer ></script>
+  <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js" defer ></script>
+  <script src ="assets/js/jquery.bxslider.min.js" defer ></script>
+  <script src ="assets/js/main.js" defer ></script>
+  <script src ="assets/js/navigation.js" defer ></script>
+
+  <script>
+    $(document).ready(function(){
+    $('.venobox').venobox();
+    $('.venobox_custom').venobox({
+        framewidth: '400px',        
+        frameheight: '300px',      
+        border: '10px',            
+        bgcolor: '#5dff5e',         
+        titleattr: 'data-title',    
+        numeratio: true,           
+        infinigall: true,           
+        spinner: 'wandering-cubes',
+    }); 
+      });
+
+    $(document).ready(function() {
+      $('#bx-slider').bxSlider({
+        mode: 'fade',
+        maxSlides: 5,
+        speed: 2000,
+        pause: 7000,
+        auto: true,
+        autoHover: false,
+        preloadImages: 'all',
+        easing: 'ease-in'
+      });
+    });
+
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("nav").style.display = "none";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("nav").style.display = "inline";
+    }
+  </script>
+</head>
+<body>
+
+
+<!-- Slideshow section -->
+<section id="bx-slider-section">
+  <ul id="bx-slider">
+
+    <li style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%), url(assets/images/homepage1.jpg)">
+      <!-- <div class="slider-logo "><span></span></div> -->
+      <img class="slider-image" alt = "Tennis Central Logo" src="assets/images/tenniscentrallogo1.png">
+      <div class="slider-content">
+        <div class="slider-container">
+          <div class="slider-center">
+            <div class="slider-header">
+              <h2>Financial freedom & fun at your fingertips</h2>
+            </div>
+            <p class="slidertext">
+              Take an  quantum leap into the future. Start a lucrative tennis business today with our dynamic team at your service
+            </p>
+            <a class="btn play-video-btn" href="https://connect3e7eba.clickfunnels.com/webinar-registration12883586" >Watch the video</a>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%),url(assets/images/homepage2.jpg)">
+      <img class ="slider-image" alt = "Tennis Central Logo" src="assets/images/tenniscentrallogo1.png">
+      <!-- <div class="slider-logo"><span></span></div> -->
+      <div class="slider-content">
+        <div class="slider-container">
+          <div class="slider-center">
+            <div class="slider-header">
+              <h2>Dare to be the boss <br>&  we will show you how.</h2>
+            </div>
+            <p class="slidertext">Let’s activate thousands of unused tennis courts and underserved communities <br> Let’s share our passion with the world.</p>
+            <a class="btn page-scroll" href="https://connect3e7eba.clickfunnels.com/payment-page4v8l3clh">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%),url(assets/images/homepage3.jpg)">
+      <img class ="slider-image" alt = "Tennis Central Logo" src="assets/images/tenniscentrallogo1.png">
+      <!-- <div class="slider-logo"><span></span></div> -->
+      <div class="slider-content">
+        <div class="slider-container">
+          <div class="slider-center">
+            <div class="slider-header">
+              <h2>Deliver smiles naturally.<br>& get paid for it.</h2>
+            </div>
+            <p class="slidertext">
+              Offer programs & products everyone loves to come back to with their friends and family. <br> Just care & they will share.
+            </p>
+            <a class="btn page-scroll" href="https://www.tennisxmanagement.com/tennis-x-blueprint">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%),url(assets/images/homepage4.jpg)">
+      <img class ="slider-image" alt = "Tennis Central Logo" src="assets/images/tenniscentrallogo1.png">
+      <!-- <div class="slider-logo"><span></span></div> -->
+      <div class="slider-content">
+        <div class="slider-container">
+          <div class="slider-center">
+            <div class="slider-header">
+              <h2>Communicate in real time. <br> Always operate at full capacity.</h2>
+            </div>
+            <p class="slidertext">
+              Put the efficiency of our technology to work, <br> never skip a beat and free yourself from unwanted burdens.
+            </p>
+            <a class="btn page-scroll" href="https://www.tennisxmanagement.com/tcx-technology">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%),url(assets/images/homepage5.jpg)">
+      <img class ="slider-image" alt = "Tennis Central Logo" src="assets/images/tenniscentrallogo1.png">
+      <!-- <div class="slider-logo"><span></span></div> -->
+      <div class="slider-content">
+        <div class="slider-container">
+          <div class="slider-center">
+            <div class="slider-header">
+              <h2>Learn to run your business <br> without it running you.</h2>
+            </div>
+            <p class="slidertext">
+              Learn how to put your tennis business on autopilot, <br> there is a life to live, places to go, and people to love.
+            </p>
+            <a class="btn page-scroll" href="https://www.tennisxmanagement.com/about">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<!-- Only visible on web -->
+<div class="hidden-xs hidden-sm">
+  <span id="nav" class="nav-open w3-text-blue" style="font-size: 30px; cursor:pointer;" onclick="openNav()">
+    &#9776;
+  </span>
+</div>
+
+<div id="mySidenav" class="sidenav w3-blue"> 
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#bx-slider-section" class="page-scroll w3-bar-item w3-button w3-border-top w3-border-bottom">Home</a>
+  <a href="#testimonial-section" class="page-scroll w3-bar-item w3-button w3-border-bottom">Testimonials</a>
+  <a href="#about-us-section" class="page-scroll w3-bar-item w3-button w3-border-bottom">About Us</a>
+  <a href="#contact-us-section" class="page-scroll w3-bar-item w3-button w3-border-bottom">Contact Us</a>
+</div>
+
+<!-- Only visible on mobile -->
+<div class="visible-xs visible-sm">
+  <nav class="fixed-mobile-nav-bar">
+    <span id="nav" class="nav-open w3-text-white" style="font-size: 30px; left: 5px; top: 10px; cursor: pointer;" onclick="openNav()">&#9776;</span>
+  </nav>
+</div>
+
+
+<!-- Do it for... section -->
+<!-- <section id="doitfor-section" class="doitfor-section w3-container">
+
+  <div class="doitfor-div" style="margin: 0 auto;">
+
+    <div class="section-title">
+      Start a Tennis Pod today and turn any underutilized tennis facility into a thriving connected Tennis Pod.
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <img src="assets/images/doitfor_1.jpg"  alt = "For Kids" class="w3-round" style="width:100%">
+        <div class="doitfor-caption">
+          Do it for the kids to inspire the next generation
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <img src="assets/images/doitfor_2.jpg"  alt = "For Fun" class="w3-round" style="width:100%">
+        <div class="doitfor-caption">
+          Do it for the fun as joining the Tennis Central team comes with perks
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <img src="assets/images/doitfor_3.jpg" alt = "For Family" class="w3-round" style="width:100%">
+        <div class="doitfor-caption">
+          Do it for your family as nothing is more precious than the time you spend with them
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <img src="assets/images/doitfor_4.jpg" class="w3-round" alt = "For Life" style="width:100%">
+        <div class="doitfor-caption">
+          Do it for you. Life is short, have the ride of your life
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="section-title-2">
+          Check out what people are saying about our Pods
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section> -->
+
+<!-- Solutions section -->
+<section id="solutions-section" class="solutions-section w3-container">
+
+  <div class="solutions-div" style="margin: 0 auto;">
+
+    <div class="section-title">Our Solutions</div>
+
+    <div class="section-title-2" style="margin-top: 60px;">What is a Tennis Central Pod?</div>
+    <p>
+      A Tennis Central Pod is a light tennis unit that offers full-fledged tennis activities, programs, and events without the heavy corporate requirements of a tennis club or country club setting. If you have access to courts and a community, you have a perfect setup for a Tennis Central Pod. It is all about ease of access, convenience, and quality service at the right price point.
+    </p>
+
+    <div class="section-title-2" style="margin-top: 60px;">Tennis X Certification</div>
+    <p>
+      If you are an intermediate or advanced tennis player who loves the game and would like to turn your tennis skills into a cash machine, welcome! With Tennis X Certification, you will elevate your status and put your tennis business in hyper drive. To learn more, please see our short <a class="dotted" href="https://www.tennisxmanagement.com/tennis-x-blueprint">Turn Your Tennis Skills Into a Cash Machine</a> video.
+    </p>
+
+    <div class="section-title-2" style="margin-top: 60px;">Tennis X Blueprint</div>
+    <p>
+      Tennis Central has created a step-by-step guide that will teach you what successful tennis businesses do to attract and retain customers and generate millions of dollars along the way. This blueprint is so powerful that anyone who loves tennis and has an entrepreneurial mind can start today. To learn more and to purchase the webinar, please visit <a class="dotted" href="https://connect3e7eba.clickfunnels.com/payment-page">this page</a>.
+    </p>
+  </div>
+</section>
+
+  <!-- Testimonials section -->
+  <section id="testimonial-section">
+    <div class="w3-center w3-container w3-margin-top">
+
+      <div class="section-title">Testimonials</div>
+
+      <div class="w3-row">
+        <div class="w3-twothird">
+          <div class="w3-card-2 w3-padding-large w3-light-gray w3-animate-left" style="height: 100%;">
+            <img src="assets/images/feedback_1.jpg" alt = "Debbie" class="w3-round w3-left w3-margin-right" style="width: 100px;">
+            <p style="line-height: 1.25em">
+              <i class="fa fa-quote-left fa-3x fa-pull-left" aria-hidden="true"></i>
+              Tennis has never been this fun and easy to access. Welcome to the 21<sup>st</sup> century!
+            </p>
+            <p class="w3-right-align w3-margin-top">&mdash;Debbie Berkelhammer, TCX Pod Member</p>
+          </div>
+        </div>
+        <div class="w3-third w3-hide-small"><p><br></p></div>
+      </div>
+
+      <div class="w3-row w3-margin-top">
+        <div class="w3-third w3-hide-small"><p><br></p></div>
+        <div class="w3-twothird">
+          <div class="w3-card-2 w3-padding-large w3-light-gray w3-animate-right" style="height: 100%;">
+            <img src="assets/images/feedback_2.jpg" alt = "Rok" class="w3-round w3-left w3-margin-right" style="width: 100px;">
+            <p style="line-height: 1.25em;">
+              <i class="fa fa-quote-left fa-3x fa-pull-left" aria-hidden="true"></i>
+              I have witnessed first hand the power of a tennis pod. My classes are full. It is great to have the support of the entire Tennis Central team.
+            </p>
+            <p class="w3-right-align w3-margin-top">&mdash;Rok Bozic, TCX Pod Owner</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-row w3-margin-top">
+        <div class="w3-twothird">
+          <div class="w3-card-2 w3-padding-large w3-light-gray w3-animate-left" style="height: 100%;">
+            <img src="assets/images/feedback_3.jpg" alt = "Yann" class="w3-round w3-left w3-margin-right" style="width: 100px;">
+            <p style="line-height: 1.25em;">
+              <i class="fa fa-quote-left fa-3x fa-pull-left" aria-hidden="true"></i>
+              The tennis industry is going through a major transition. It is as big as what Uber did to the cab industry and Airbnb to the hotel industry. Will you be on the right side of history?
+            </p>
+            <p class="w3-right-align w3-margin-top">&mdash;Yann Auzoux, Tennis Central Corp, CEO</p>
+          </div>
+        </div>
+        <div class="w3-third w3-hide-small"><p><br></p></div>
+      </div>
+
+    </div>
+  </section> 
+
+  <!-- About Us section -->
+  <section id="about-us-section" class="w3-padding-32 w3-border-top" style="margin-top: 50px; margin-bottom: 50px; padding-top: 0px !important;"> 
+
+    <div class="w3-display-container">
+      <img src="assets/images/homepage1.jpg" alt = "Tennis Central Team" class="w3-grayscale-max w3-opacity-min" style="width: 100%;">
+
+      <div class="section-title w3-display-middle w3-margin-bottom w3-text-white">
+        About Us
+      </div>
+    </div>
+
+    <div class="w3-display-container">
+
+      <div class="mySlides w3-container w3-display-topmiddle w3-border-left w3-border-right">
+        <div class="section-title-2">History</div>
+        <p>
+          We are a family-oriented corporation. Our #1 goal is to make you successful beyond your wildest dreams and free your time.
+        </p>
+        <p style="margin-top: 15px;">
+          It started as a dare and morphed into an industry. A tennis establishment executive I looked up to once told me that I should
+          stick to teaching and leave the business side to him. I dared myself to produce products and services that will
+          revolutionize the way the game is taught, played, and accessed. If you dream of a better way, build it.
+        </p>
+        <p style="margin-top: 15px;">
+          Tennis Central Corp is the gateway for all of us who know tennis has not seen its brightest years yet and are ready to do
+          something about it&mdash;join us and disrupt.
+        </p>
+      </div>
+
+      <div class="mySlides w3-container w3-display-topmiddle w3-border-left w3-border-right">
+        <div class="section-title-2">Our Philosophy</div>
+        <p>
+          Mobility and real-time communication will make you thrive. People love tennis&mdash;give them fast and easy access. Traditions
+          are good, but not at the expense of our amazing enthusiasts. Which events would you rather attend?
+        </p>
+      </div>
+
+      <div class="mySlides w3-container w3-display-topmiddle w3-border-left w3-border-right">
+          <div class="section-title-2">Our Mission</div>
+          <p>
+            Our mission is to empower the next generation of tennis bosses and tennis players. Times have changed. It's time to upgrade!
+          </p>
+      </div>
+
+      <div class="w3-center">
+      <button class="w3-button w3-xlarge noselection w3-text-orange" onclick="plusDivs(-1)">
+        <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+      </button>
+      <button class="w3-button w3-xlarge noselection w3-text-orange" onclick="plusDivs(+1)">
+        <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+      </button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact-us-section" class="w3-container w3-margin-top w3-padding-32 w3-border-top">
+
+    <div class="section-title">Contact Us</div>
+
+    <div class="w3-row">
+      <div class="w3-half w3-container">
+      
+        <form id="contact-us" class="w3-container w3-card-2 w3-padding-32 w3-white" method="post">
+          
+        <div class="w3-section">
+          <label class="w3-padding-small">Name</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="name">
+        </div>
+            
+        <div class="w3-section">
+          <label class="w3-padding-small">Email</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="email">
+        </div>
+            
+        <div class="w3-section">
+          <label class="w3-padding-small">Message</label>
+          <textarea class="w3-input" style="width:100%;resize: none;" required name="message" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="w3-button w3-orange w3-right">Send</button>
+
+        <!-- The Modals -->
+        <div id="contact-us-success-modal" class="w3-modal">
+          <div class="w3-modal-content w3-card-4">
+            <header class="w3-container w3-orange">
+              <span onclick="document.getElementById('contact-us-success-modal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+              <h2>Contact Us</h2>
+            </header>
+            <div class="w3-container">
+              <p><br></p>
+              <p>Your message was sent successfully. We will be in touch soon!</p>
+              <p><br></p>
+            </div>
+          </div>
+        </div>
+
+        <div id="contact-us-error-modal" class="w3-modal">
+          <div class="w3-modal-content w3-card-4">
+            <header class="w3-container w3-orange">
+              <span onclick="document.getElementById('contact-us-error-modal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+              <h2>Contact Us</h2>
+            </header>
+            <div class="w3-container">
+              <p><br></p>
+              <p>Something went wrong, try refreshing and submitting the form again.</p>
+              <p><br></p>
+            </div>
+          </div>
+        </div>
+
+       </form>
+
+      </div>
+
+      <div class="w3-half w3-container w3-margin-top">
+        <ul style="list-style: none;">
+          <li style="white-space: nowrap;">
+            <i class="fa fa-envelope-o w3-text-orange" aria-hidden="true" style="float: left; margin-right: 25px; margin-bottom: 40px;"></i>
+            <p>
+              <a class="dotted" href="mailto:connect@tenniscentral.net">connect@tenniscentral.net</a> 
+            </p>
+          </li>
+          <li style="clear: left;">
+            <i class="fa fa-map-marker w3-text-orange" style="float: left; margin-right: 25px; margin-bottom: 40px;" aria-hidden="true"></i>
+            <p>
+              5335 Wisconsin Ave NW Suite 640
+              <br>
+              Washington DC 20015
+            </p>
+          </li>
+          <li style="clear: left;">
+            <i class="fa fa-phone w3-text-orange" aria-hidden="true" style="float: left; margin-right: 25px;"></i>
+            <p>
+              +1 202-478-9655
+            </p>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+<!-- Footer -->
+<footer class="w3-container w3-padding-16 w3-center w3-border-top">
+  <p>
+    Powered by <a class="dotted" href="https://tenniscentral.net/">Tennis Central Corp</a>
+  </p>
+  <div style="position:relative; bottom:25px;" class="w3-tooltip w3-right">
+    <span class="w3-text">Go To Top</span>    
+    <a href="#bx-slider-section">
+      <span class="w3-xlarge"><i class="fa fa-chevron-circle-up"></i></span>
+    </a>
+  </div>
+</footer>
+
+<script>
+  // for feedback slideshow
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+
+  // Contact Us
+  $("#contact-us").submit(function(event) {
+    event.preventDefault();
+    $.ajax({
+      type: "post",
+      data: $("#contact-us").serialize(),
+      url: "process-contact-us.php",
+      success: function() {
+        $('#contact-us-success-modal').show();
+      },
+      error: function() {
+        $('#contact-us-error-modal').show();
+      }
+    });
+  }); 
+
+</script>
+
+</body>
+</html>
